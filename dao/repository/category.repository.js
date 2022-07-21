@@ -6,7 +6,7 @@
 
 */
 
-const { defineCategory } = require("../models/Category.model");
+const { defineCategory } = require("../models/category.model");
 const dbConnection = require("./dbConnection");
 
 const { connection } = require("./dbConnection");
