@@ -3,7 +3,7 @@
     name:
     description:  
 */
-const defineCategory = (conn, DataTypes) => {
+exports.defineCategory = (conn, DataTypes) => {
     const Category = conn.define("category", {
         id: {
             type: DataTypes.INTEGER,
@@ -22,5 +22,3 @@ const defineCategory = (conn, DataTypes) => {
 
     return Category;
 }
-
-module.exports = defineCategory;

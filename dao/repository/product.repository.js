@@ -3,7 +3,7 @@
 2. update and delete
 */
 
-const defineCategory = require("../models/Category.model");
+const {defineCategory} = require("../models/Category.model");
 const {defineProduct} = require("../models/product.model");
 const dbConnection = require("./dbConnection");
 

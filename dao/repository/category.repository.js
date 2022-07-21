@@ -6,8 +6,9 @@
 
 */
 
+const { defineCategory } = require("../models/Category.model");
 const dbConnection = require("./dbConnection");
-const defineCategory = require("../models/category.model");
+
 const { connection } = require("./dbConnection");
 //function to create a new row in the Category table
 //function to select a row from the Category table
